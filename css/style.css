@@ -91,6 +91,11 @@ html {
     font-family: "Montserrat", serif;
     color: white;
 }
+.menu ul li {
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 1em;
+}
 
 .clear {
     clear: both;
