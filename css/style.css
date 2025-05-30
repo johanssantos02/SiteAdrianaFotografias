@@ -54,7 +54,6 @@ html {
     position: relative;
 }
 .logo {
-
     height: 14em;
     position: relative;
 }
@@ -72,17 +71,6 @@ html {
     display: block;
     margin: 0 auto;
     width: 20em;
-
-    height: 240px;
-}
-
-.topo .logo img {
-    width: 18em;
-    height: auto;
-    float: left;
-    top: -9%;
-    left: 38%;
-    position: absolute;
     text-align: center;
 }
 
@@ -95,12 +83,7 @@ html {
     justify-content: center;
     position: absolute;
     bottom: 10%;
-    position: absolute;
-    text-align: center;
-    padding-left: 26%;
-    margin-top: 12%;
-    cursor: pointer;
-    transition: 0.5s;
+
 }
 
 .menu a {
