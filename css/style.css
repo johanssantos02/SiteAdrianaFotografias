@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #FDFDFD;
+}
+
+/*frameworks proprios*/
+.bd {
+    border: solid 1px black;
+}
+
+.bd2 {
+    border-bottom: solid 1px gold;
+
+}
+
+.ct {
+    text-align: center;
+}
+
+.imgcenter img {
+    width: 235px;
+    height: 200px;
+}
+
+.contrucao {
+    font-family: montsserat;
+    color: #485350;
+    height: 300px;
+    width: 100%;
+}
+
+.contrucao h1 {
+    font-size: 100px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+/*final dos frameworks*/
+.topo {
+    max-width: 100vw;
+    width: 100%;
+    background-color: #0D0D0D;
+    height: 240px;
+}
+
+.topo .logo img {
+    width: 18em;
+    height: auto;
+    float: left;
+    top: -9%;
+    left: 38%;
+    position: absolute;
+    text-align: center;
+}
+
+.menu {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    padding-left: 26%;
+    margin-top: 12%;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 1em;
+}
+
+.menu ul li :hover {
+    color: #BD2A2E;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.Galeria {
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.Galeria .imagens span {
+    width: 250px;
+    margin-left: 15px;
+    height: 250px;
+    border: solid 2px #ccc;
+}
+
+.Galeria .imagens span img {
+    max-width: 230px;
+    width: 100%;
+    height: 260px;
+    padding-left: 20px;
+    object-fit: contain;
+    cursor: grab;
+}
+
+.galeria02 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: absolute;
+    padding-left: 17%;
+    margin-top: 150px;
+}
+
+.img_galery {
+
+    height: 60%;
+    background-image: url(../imagens/casamentos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white;
+}
+
+.img_galery2 {
+    height: 60%;
+    background-image: url(../imagens/familias.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white;
+}
+
+.img_galery3 {
+    height: 60%;
+    background-image: url(../imagens/gestante.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white;
+}
+
+.trab_img:hover {
+    cursor: pointer;
+    width: calc(80%/3);
+    height: 500px;
+}
+
+.trab_img {
+    width: calc(70%/3);
+    height: 400px;
+    text-align: center;
+    margin: 0 20px;
+    transition: 1s;
+}
+
+.trab_img a {
+    text-decoration: none;
+    color: white;
+}
+
+.trab_img button {
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    border: solid 1px black;
+    background-color: #2C3532;
+}
+
+.trab_img p {
+    margin-top: 20px;
+    line-height: 10px;
+}
+
+.sobreMim {
+    width: 100%;
+    height: 500px;
+}
+
+.sobreMim h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biografia {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imgBio {
+    background-image: url(../imagens/perfil.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 0;
+
+}
+
+.imgBio,
+.bio {
+
+    width: 100%;
+    height: 450px;
+
+
+}
+
+.bio p {
+    overflow: hidden;
+    height: 450px;
+    font-family: "Montserrat", serif;
+    color: black;
+}
+
+.nossosTrabalhos h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 34px;
+}
+
+.trabalhos {
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.trab01 {
+    width: 100%;
+    height: 350px;
+    background-image: url(../imagens/imagem_banner_galery.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.trabImg {
+    width: calc(80%/3);
+    height: 280px;
+    display: inline-block;
+    margin: -20px 0 50px 20px;
+    background-color: #2C3532;
+    color: white;
+    box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.61);
+    -webkit-box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+}
+
+
+.trabImg h1 {
+    margin-top: 60px;
+}
+
+#img1 {
+    background-image: url(../imagens/gestante.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img2 {
+    background-image: url(../imagens/casamentos.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img3 {
+    background-image: url(../imagens/familias.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img4 {
+    background-image: url(../imagens/eventos.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img5 {
+    background-image: url(../imagens/execultivo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img6 {
+    background-image: url(../imagens/bebes.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img7 {
+    background-image: url(../imagens/WhatsApp\ Image\ 2025-01-08\ at\ 00.20.49\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img8 {
+    background-image: url(../imagens/eventos.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img9 {
+    background-image: url(../imagens/familias.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+
+#img10 {
+    background-image: url(../imagens/casamentos.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: grab;
+}
+.faleConosco{
+    background-image: url(../imagens/AdobeStock_1175353524_Preview.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.faleConosco h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.faleConosco2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.socialMedia {
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}
+
+.form input {
+    margin: 15px 0px;
+}
+
+.form {
+    padding-top: 50px;
+}
+
+.form input[type=text] {
+    width: 60%;
+    height: 40px;
+}
+
+.form input[type=E-mail] {
+    width: 60%;
+    height: 40px;
+}
+
+.form input[type=Telefone] {
+    width: 60%;
+    height: 40px;
+}
+
+.form input[type=Button] {
+    width: 15%;
+    height: 40px;
+    margin-right: 250px;
+    background-color: #262626;
+    border: 0;
+    color: white;
+}
+
+.socialMedia p {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.socialMedia {
+    padding-top: 50px;
+}
+
+.icon-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-line img {
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+}
+
+.whats {
+  position: fixed;
+  bottom: 60px;
+  right: 80px;
+  z-index: 1000;
+
+}
+
+.whats img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+.whatsapp-fixo img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+    width: 100%;
+    margin-top: 25px;
+    height: 50px;
+    color: black;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+footer p{
+    color: black;
+}
+
+
+/*SEPARADO PARA A PAGINA DE PORTIFOLIO*/
+
+.portifolio h1 {
+    text-align: center;
+    height: 80px;
+}
+
+.portifolio .imgGalery a {
+    display: block;
+    font-family: montsserat;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 5%;
+    color: #BD2A2E;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imgGalery {
+    width: 100%;
+    height: 300px;
+    border-bottom: #ffffff 5px solid;
+    filter: grayscale(80%);
+}
+
+#prtf_img01 {
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prtf_img02 {
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prtf_img03 {
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prtf_img04 {
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prtf_img05 {
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgGalery:hover {
+    filter: none;
+}
+
+/*AQUI COMECA A ESTILIZACAO DA GALERIA DE IMAGENS*/
+
+.galeria_page {
+    height: auto;
+    width: 100%;
+
+}
+
+.page_galery {
+    background-color: #0D0D0D;
+}
+
+.page_galery h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    color: white;
+    font-size: 36px;
+    font-family: 'montserrat';
+    text-align: center;
+}
+
+.galeria_page_single {
+    width: calc(95% / 3);
+    border: solid 5px rgb(255, 255, 255);
+    height: 20%;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 2px #2C3532;
+}
+
+.galeria_page_single img {
+    width: 80%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+
+/* .galeria_page_single:first-child {
+    background-image: url(../imagens/casamentos.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 99%;
+} */
+
+
