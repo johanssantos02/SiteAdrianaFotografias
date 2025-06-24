@@ -18,7 +18,7 @@ $(function () {
     autoplaySpeed: 2000,
     infinite: true,
     variableWidth: true,
-    
+
     responsive: [
       {
         breakpoint: 768,
@@ -42,6 +42,9 @@ $(function () {
 
   });
 });
+  window.onload = function () {
+  document.getElementById("bodyCentral").style.visibility = "visible"
+}
 
 // var botao = document.querySelector('input[type=button]');
 

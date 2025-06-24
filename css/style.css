@@ -506,31 +506,61 @@ footer p {
 }
 
 #prtf_img02 {
-    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-image: url(../imagens/banners_Portifolio/banner_familia.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+
 }
 
 #prtf_img03 {
-    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-image: url(../imagens/banners_Portifolio/banner_infantil.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
 }
 
 #prtf_img04 {
-    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-image: url(../imagens/banners_Portifolio/banner_gestantes.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
 }
 
 #prtf_img05 {
-    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-image: url(../imagens/banners_Portifolio/banner_trabalho.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .imgGalery:hover {
     filter: none;
+}
+
+.secaoRedesSociais {
+    border: solid 1px red;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.redesSociaisTp01 {
+    border: solid 1px green;
+    width: calc(100vw / 2);
+}
+
+.redesSociaisTp02 {
+    width: calc(100vw / 2);
+    background: transparent;
+
+    img {
+        border: solid 1px red;
+        width: 70em;
+        position: absolute;
+
+    }
 }
 
 /*AQUI COMECA A ESTILIZACAO DA GALERIA DE IMAGENS*/
@@ -599,9 +629,6 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
-
-
-
 
 /* .galeria_page_single:first-child {
     background-image: url(../imagens/casamentos.jpeg);
